@@ -8,8 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface PJAppDelegate : NSObject <NSApplicationDelegate>
+@interface PJAppDelegate : NSObject <NSApplicationDelegate,
+    NSOutlineViewDataSource, NSOutlineViewDelegate> {
+    NSArray *_windowsArray;
+    NSMutableArray *_windowNames;
+    NSMutableDictionary *_windowControllers;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSOutlineView *outlineView;
+
+- (IBAction)closeAllControlWindow:(id)sender;
 
 @end

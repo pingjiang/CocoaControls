@@ -18,6 +18,55 @@
 		D7A588C219A23634005B13BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A588A119A23634005B13BA /* Cocoa.framework */; };
 		D7A588CA19A23634005B13BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A588C819A23634005B13BA /* InfoPlist.strings */; };
 		D7A588CC19A23634005B13BA /* CocoaControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A588CB19A23634005B13BA /* CocoaControlsTests.m */; };
+		D7A588EA19A237F4005B13BA /* windows.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7A588E919A237F4005B13BA /* windows.plist */; };
+		D7A588EE19A238CE005B13BA /* PJButtonWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A588EC19A238CE005B13BA /* PJButtonWindowController.m */; };
+		D7A588EF19A238CE005B13BA /* PJButtonWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A588ED19A238CE005B13BA /* PJButtonWindowController.xib */; };
+		D7A588F319A239E3005B13BA /* PJTextWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A588F119A239E3005B13BA /* PJTextWindowController.m */; };
+		D7A588F419A239E3005B13BA /* PJTextWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A588F219A239E3005B13BA /* PJTextWindowController.xib */; };
+		D7A588F819A239F5005B13BA /* PJMenuWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A588F619A239F5005B13BA /* PJMenuWindowController.m */; };
+		D7A588F919A239F5005B13BA /* PJMenuWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A588F719A239F5005B13BA /* PJMenuWindowController.xib */; };
+		D7A588FD19A23A05005B13BA /* PJTableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A588FB19A23A05005B13BA /* PJTableWindowController.m */; };
+		D7A588FE19A23A05005B13BA /* PJTableWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A588FC19A23A05005B13BA /* PJTableWindowController.xib */; };
+		D7A5890219A23A15005B13BA /* PJListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5890019A23A15005B13BA /* PJListWindowController.m */; };
+		D7A5890319A23A15005B13BA /* PJListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5890119A23A15005B13BA /* PJListWindowController.xib */; };
+		D7A5890719A23A27005B13BA /* PJCollectionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5890519A23A27005B13BA /* PJCollectionWindowController.m */; };
+		D7A5890819A23A27005B13BA /* PJCollectionWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5890619A23A27005B13BA /* PJCollectionWindowController.xib */; };
+		D7A5890C19A23A38005B13BA /* PJViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5890A19A23A38005B13BA /* PJViewWindowController.m */; };
+		D7A5890D19A23A38005B13BA /* PJViewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5890B19A23A38005B13BA /* PJViewWindowController.xib */; };
+		D7A5891119A23A4B005B13BA /* PJImageWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5890F19A23A4B005B13BA /* PJImageWindowController.m */; };
+		D7A5891219A23A4B005B13BA /* PJImageWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5891019A23A4B005B13BA /* PJImageWindowController.xib */; };
+		D7A5891619A23A5F005B13BA /* PJDnDWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5891419A23A5F005B13BA /* PJDnDWindowController.m */; };
+		D7A5891719A23A5F005B13BA /* PJDnDWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5891519A23A5F005B13BA /* PJDnDWindowController.xib */; };
+		D7A5891B19A23A6F005B13BA /* PJTabWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5891919A23A6F005B13BA /* PJTabWindowController.m */; };
+		D7A5891C19A23A6F005B13BA /* PJTabWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5891A19A23A6F005B13BA /* PJTabWindowController.xib */; };
+		D7A5892019A23A81005B13BA /* PJWindowWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5891E19A23A81005B13BA /* PJWindowWindowController.m */; };
+		D7A5892119A23A81005B13BA /* PJWindowWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5891F19A23A81005B13BA /* PJWindowWindowController.xib */; };
+		D7A5892519A23A91005B13BA /* PJNavWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5892319A23A91005B13BA /* PJNavWindowController.m */; };
+		D7A5892619A23A91005B13BA /* PJNavWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5892419A23A91005B13BA /* PJNavWindowController.xib */; };
+		D7A5892A19A23AA9005B13BA /* PJPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5892819A23AA9005B13BA /* PJPreferenceWindowController.m */; };
+		D7A5892B19A23AA9005B13BA /* PJPreferenceWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5892919A23AA9005B13BA /* PJPreferenceWindowController.xib */; };
+		D7A5892F19A23ABA005B13BA /* PJToolbarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5892D19A23ABA005B13BA /* PJToolbarWindowController.m */; };
+		D7A5893019A23ABA005B13BA /* PJToolbarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5892E19A23ABA005B13BA /* PJToolbarWindowController.xib */; };
+		D7A5893419A23ACA005B13BA /* PJColorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5893219A23ACA005B13BA /* PJColorWindowController.m */; };
+		D7A5893519A23ACA005B13BA /* PJColorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5893319A23ACA005B13BA /* PJColorWindowController.xib */; };
+		D7A5893919A23AD9005B13BA /* PJSliderWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5893719A23AD9005B13BA /* PJSliderWindowController.m */; };
+		D7A5893A19A23AD9005B13BA /* PJSliderWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5893819A23AD9005B13BA /* PJSliderWindowController.xib */; };
+		D7A5893E19A23AF2005B13BA /* PJProgressbarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5893C19A23AF2005B13BA /* PJProgressbarWindowController.m */; };
+		D7A5893F19A23AF2005B13BA /* PJProgressbarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5893D19A23AF2005B13BA /* PJProgressbarWindowController.xib */; };
+		D7A5894319A23B04005B13BA /* PJOpenGLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5894119A23B04005B13BA /* PJOpenGLWindowController.m */; };
+		D7A5894419A23B04005B13BA /* PJOpenGLWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5894219A23B04005B13BA /* PJOpenGLWindowController.xib */; };
+		D7A5894819A23B19005B13BA /* PJAVIWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5894619A23B19005B13BA /* PJAVIWindowController.m */; };
+		D7A5894919A23B19005B13BA /* PJAVIWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5894719A23B19005B13BA /* PJAVIWindowController.xib */; };
+		D7A5894D19A23B32005B13BA /* PJWebViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5894B19A23B32005B13BA /* PJWebViewWindowController.m */; };
+		D7A5894E19A23B32005B13BA /* PJWebViewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5894C19A23B32005B13BA /* PJWebViewWindowController.xib */; };
+		D7A5895319A23B9D005B13BA /* PJSidebarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5895119A23B9D005B13BA /* PJSidebarWindowController.m */; };
+		D7A5895419A23B9D005B13BA /* PJSidebarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5895219A23B9D005B13BA /* PJSidebarWindowController.xib */; };
+		D7A5895919A23BCE005B13BA /* PJHighlightWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5895719A23BCE005B13BA /* PJHighlightWindowController.m */; };
+		D7A5895A19A23BCE005B13BA /* PJHighlightWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5895819A23BCE005B13BA /* PJHighlightWindowController.xib */; };
+		D7A5895F19A23BEB005B13BA /* PJAnimationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5895D19A23BEB005B13BA /* PJAnimationWindowController.m */; };
+		D7A5896019A23BEB005B13BA /* PJAnimationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5895E19A23BEB005B13BA /* PJAnimationWindowController.xib */; };
+		D7A5896519A23C32005B13BA /* PJBindingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5896319A23C32005B13BA /* PJBindingWindowController.m */; };
+		D7A5896619A23C32005B13BA /* PJBindingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5896419A23C32005B13BA /* PJBindingWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +99,79 @@
 		D7A588C719A23634005B13BA /* CocoaControlsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaControlsTests-Info.plist"; sourceTree = "<group>"; };
 		D7A588C919A23634005B13BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7A588CB19A23634005B13BA /* CocoaControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaControlsTests.m; sourceTree = "<group>"; };
+		D7A588E919A237F4005B13BA /* windows.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = windows.plist; sourceTree = "<group>"; };
+		D7A588EB19A238CE005B13BA /* PJButtonWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJButtonWindowController.h; path = Button/PJButtonWindowController.h; sourceTree = "<group>"; };
+		D7A588EC19A238CE005B13BA /* PJButtonWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJButtonWindowController.m; path = Button/PJButtonWindowController.m; sourceTree = "<group>"; };
+		D7A588ED19A238CE005B13BA /* PJButtonWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJButtonWindowController.xib; path = Button/PJButtonWindowController.xib; sourceTree = "<group>"; };
+		D7A588F019A239E3005B13BA /* PJTextWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTextWindowController.h; path = Text/PJTextWindowController.h; sourceTree = "<group>"; };
+		D7A588F119A239E3005B13BA /* PJTextWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTextWindowController.m; path = Text/PJTextWindowController.m; sourceTree = "<group>"; };
+		D7A588F219A239E3005B13BA /* PJTextWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJTextWindowController.xib; path = Text/PJTextWindowController.xib; sourceTree = "<group>"; };
+		D7A588F519A239F5005B13BA /* PJMenuWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJMenuWindowController.h; path = Menu/PJMenuWindowController.h; sourceTree = "<group>"; };
+		D7A588F619A239F5005B13BA /* PJMenuWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJMenuWindowController.m; path = Menu/PJMenuWindowController.m; sourceTree = "<group>"; };
+		D7A588F719A239F5005B13BA /* PJMenuWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJMenuWindowController.xib; path = Menu/PJMenuWindowController.xib; sourceTree = "<group>"; };
+		D7A588FA19A23A05005B13BA /* PJTableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTableWindowController.h; path = Table/PJTableWindowController.h; sourceTree = "<group>"; };
+		D7A588FB19A23A05005B13BA /* PJTableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTableWindowController.m; path = Table/PJTableWindowController.m; sourceTree = "<group>"; };
+		D7A588FC19A23A05005B13BA /* PJTableWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJTableWindowController.xib; path = Table/PJTableWindowController.xib; sourceTree = "<group>"; };
+		D7A588FF19A23A15005B13BA /* PJListWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJListWindowController.h; path = List/PJListWindowController.h; sourceTree = "<group>"; };
+		D7A5890019A23A15005B13BA /* PJListWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJListWindowController.m; path = List/PJListWindowController.m; sourceTree = "<group>"; };
+		D7A5890119A23A15005B13BA /* PJListWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJListWindowController.xib; path = List/PJListWindowController.xib; sourceTree = "<group>"; };
+		D7A5890419A23A27005B13BA /* PJCollectionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJCollectionWindowController.h; path = Collection/PJCollectionWindowController.h; sourceTree = "<group>"; };
+		D7A5890519A23A27005B13BA /* PJCollectionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJCollectionWindowController.m; path = Collection/PJCollectionWindowController.m; sourceTree = "<group>"; };
+		D7A5890619A23A27005B13BA /* PJCollectionWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJCollectionWindowController.xib; path = Collection/PJCollectionWindowController.xib; sourceTree = "<group>"; };
+		D7A5890919A23A38005B13BA /* PJViewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJViewWindowController.h; path = View/PJViewWindowController.h; sourceTree = "<group>"; };
+		D7A5890A19A23A38005B13BA /* PJViewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJViewWindowController.m; path = View/PJViewWindowController.m; sourceTree = "<group>"; };
+		D7A5890B19A23A38005B13BA /* PJViewWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJViewWindowController.xib; path = View/PJViewWindowController.xib; sourceTree = "<group>"; };
+		D7A5890E19A23A4B005B13BA /* PJImageWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJImageWindowController.h; path = Image/PJImageWindowController.h; sourceTree = "<group>"; };
+		D7A5890F19A23A4B005B13BA /* PJImageWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJImageWindowController.m; path = Image/PJImageWindowController.m; sourceTree = "<group>"; };
+		D7A5891019A23A4B005B13BA /* PJImageWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJImageWindowController.xib; path = Image/PJImageWindowController.xib; sourceTree = "<group>"; };
+		D7A5891319A23A5F005B13BA /* PJDnDWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJDnDWindowController.h; path = DnD/PJDnDWindowController.h; sourceTree = "<group>"; };
+		D7A5891419A23A5F005B13BA /* PJDnDWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJDnDWindowController.m; path = DnD/PJDnDWindowController.m; sourceTree = "<group>"; };
+		D7A5891519A23A5F005B13BA /* PJDnDWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJDnDWindowController.xib; path = DnD/PJDnDWindowController.xib; sourceTree = "<group>"; };
+		D7A5891819A23A6F005B13BA /* PJTabWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTabWindowController.h; path = Tab/PJTabWindowController.h; sourceTree = "<group>"; };
+		D7A5891919A23A6F005B13BA /* PJTabWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTabWindowController.m; path = Tab/PJTabWindowController.m; sourceTree = "<group>"; };
+		D7A5891A19A23A6F005B13BA /* PJTabWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJTabWindowController.xib; path = Tab/PJTabWindowController.xib; sourceTree = "<group>"; };
+		D7A5891D19A23A81005B13BA /* PJWindowWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJWindowWindowController.h; path = Window/PJWindowWindowController.h; sourceTree = "<group>"; };
+		D7A5891E19A23A81005B13BA /* PJWindowWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJWindowWindowController.m; path = Window/PJWindowWindowController.m; sourceTree = "<group>"; };
+		D7A5891F19A23A81005B13BA /* PJWindowWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJWindowWindowController.xib; path = Window/PJWindowWindowController.xib; sourceTree = "<group>"; };
+		D7A5892219A23A91005B13BA /* PJNavWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJNavWindowController.h; path = Nav/PJNavWindowController.h; sourceTree = "<group>"; };
+		D7A5892319A23A91005B13BA /* PJNavWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJNavWindowController.m; path = Nav/PJNavWindowController.m; sourceTree = "<group>"; };
+		D7A5892419A23A91005B13BA /* PJNavWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJNavWindowController.xib; path = Nav/PJNavWindowController.xib; sourceTree = "<group>"; };
+		D7A5892719A23AA9005B13BA /* PJPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJPreferenceWindowController.h; path = Preference/PJPreferenceWindowController.h; sourceTree = "<group>"; };
+		D7A5892819A23AA9005B13BA /* PJPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJPreferenceWindowController.m; path = Preference/PJPreferenceWindowController.m; sourceTree = "<group>"; };
+		D7A5892919A23AA9005B13BA /* PJPreferenceWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJPreferenceWindowController.xib; path = Preference/PJPreferenceWindowController.xib; sourceTree = "<group>"; };
+		D7A5892C19A23ABA005B13BA /* PJToolbarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJToolbarWindowController.h; path = Toolbar/PJToolbarWindowController.h; sourceTree = "<group>"; };
+		D7A5892D19A23ABA005B13BA /* PJToolbarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJToolbarWindowController.m; path = Toolbar/PJToolbarWindowController.m; sourceTree = "<group>"; };
+		D7A5892E19A23ABA005B13BA /* PJToolbarWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJToolbarWindowController.xib; path = Toolbar/PJToolbarWindowController.xib; sourceTree = "<group>"; };
+		D7A5893119A23ACA005B13BA /* PJColorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJColorWindowController.h; path = Color/PJColorWindowController.h; sourceTree = "<group>"; };
+		D7A5893219A23ACA005B13BA /* PJColorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJColorWindowController.m; path = Color/PJColorWindowController.m; sourceTree = "<group>"; };
+		D7A5893319A23ACA005B13BA /* PJColorWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJColorWindowController.xib; path = Color/PJColorWindowController.xib; sourceTree = "<group>"; };
+		D7A5893619A23AD9005B13BA /* PJSliderWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJSliderWindowController.h; path = Slider/PJSliderWindowController.h; sourceTree = "<group>"; };
+		D7A5893719A23AD9005B13BA /* PJSliderWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJSliderWindowController.m; path = Slider/PJSliderWindowController.m; sourceTree = "<group>"; };
+		D7A5893819A23AD9005B13BA /* PJSliderWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJSliderWindowController.xib; path = Slider/PJSliderWindowController.xib; sourceTree = "<group>"; };
+		D7A5893B19A23AF2005B13BA /* PJProgressbarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJProgressbarWindowController.h; path = Progressbar/PJProgressbarWindowController.h; sourceTree = "<group>"; };
+		D7A5893C19A23AF2005B13BA /* PJProgressbarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJProgressbarWindowController.m; path = Progressbar/PJProgressbarWindowController.m; sourceTree = "<group>"; };
+		D7A5893D19A23AF2005B13BA /* PJProgressbarWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJProgressbarWindowController.xib; path = Progressbar/PJProgressbarWindowController.xib; sourceTree = "<group>"; };
+		D7A5894019A23B04005B13BA /* PJOpenGLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJOpenGLWindowController.h; path = OpenGL/PJOpenGLWindowController.h; sourceTree = "<group>"; };
+		D7A5894119A23B04005B13BA /* PJOpenGLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJOpenGLWindowController.m; path = OpenGL/PJOpenGLWindowController.m; sourceTree = "<group>"; };
+		D7A5894219A23B04005B13BA /* PJOpenGLWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJOpenGLWindowController.xib; path = OpenGL/PJOpenGLWindowController.xib; sourceTree = "<group>"; };
+		D7A5894519A23B19005B13BA /* PJAVIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJAVIWindowController.h; path = AVI/PJAVIWindowController.h; sourceTree = "<group>"; };
+		D7A5894619A23B19005B13BA /* PJAVIWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJAVIWindowController.m; path = AVI/PJAVIWindowController.m; sourceTree = "<group>"; };
+		D7A5894719A23B19005B13BA /* PJAVIWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJAVIWindowController.xib; path = AVI/PJAVIWindowController.xib; sourceTree = "<group>"; };
+		D7A5894A19A23B32005B13BA /* PJWebViewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJWebViewWindowController.h; path = WebView/PJWebViewWindowController.h; sourceTree = "<group>"; };
+		D7A5894B19A23B32005B13BA /* PJWebViewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJWebViewWindowController.m; path = WebView/PJWebViewWindowController.m; sourceTree = "<group>"; };
+		D7A5894C19A23B32005B13BA /* PJWebViewWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJWebViewWindowController.xib; path = WebView/PJWebViewWindowController.xib; sourceTree = "<group>"; };
+		D7A5895019A23B9D005B13BA /* PJSidebarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJSidebarWindowController.h; path = Sidebar/PJSidebarWindowController.h; sourceTree = "<group>"; };
+		D7A5895119A23B9D005B13BA /* PJSidebarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJSidebarWindowController.m; path = Sidebar/PJSidebarWindowController.m; sourceTree = "<group>"; };
+		D7A5895219A23B9D005B13BA /* PJSidebarWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJSidebarWindowController.xib; path = Sidebar/PJSidebarWindowController.xib; sourceTree = "<group>"; };
+		D7A5895619A23BCE005B13BA /* PJHighlightWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJHighlightWindowController.h; path = Highlight/PJHighlightWindowController.h; sourceTree = "<group>"; };
+		D7A5895719A23BCE005B13BA /* PJHighlightWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJHighlightWindowController.m; path = Highlight/PJHighlightWindowController.m; sourceTree = "<group>"; };
+		D7A5895819A23BCE005B13BA /* PJHighlightWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJHighlightWindowController.xib; path = Highlight/PJHighlightWindowController.xib; sourceTree = "<group>"; };
+		D7A5895C19A23BEB005B13BA /* PJAnimationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJAnimationWindowController.h; path = Animation/PJAnimationWindowController.h; sourceTree = "<group>"; };
+		D7A5895D19A23BEB005B13BA /* PJAnimationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJAnimationWindowController.m; path = Animation/PJAnimationWindowController.m; sourceTree = "<group>"; };
+		D7A5895E19A23BEB005B13BA /* PJAnimationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJAnimationWindowController.xib; path = Animation/PJAnimationWindowController.xib; sourceTree = "<group>"; };
+		D7A5896219A23C32005B13BA /* PJBindingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJBindingWindowController.h; path = Binding/PJBindingWindowController.h; sourceTree = "<group>"; };
+		D7A5896319A23C32005B13BA /* PJBindingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJBindingWindowController.m; path = Binding/PJBindingWindowController.m; sourceTree = "<group>"; };
+		D7A5896419A23C32005B13BA /* PJBindingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJBindingWindowController.xib; path = Binding/PJBindingWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +237,30 @@
 		D7A588A719A23634005B13BA /* CocoaControls */ = {
 			isa = PBXGroup;
 			children = (
+				D7A5896119A23BF0005B13BA /* Binding */,
+				D7A5895B19A23BD4005B13BA /* Animation */,
+				D7A5895519A23BB5005B13BA /* Highlight */,
+				D7A5894F19A23B88005B13BA /* Sidebar */,
+				D7A588E819A2374C005B13BA /* WebView */,
+				D7A588E719A236F4005B13BA /* AVI */,
+				D7A588E619A236E8005B13BA /* OpenGL */,
+				D7A588E519A236C5005B13BA /* Progressbar */,
+				D7A588E419A236C0005B13BA /* Slider */,
+				D7A588E319A236BA005B13BA /* Color */,
+				D7A588E219A236A6005B13BA /* Toolbar */,
+				D7A588E119A2369D005B13BA /* Preference */,
+				D7A588E019A23696005B13BA /* Nav */,
+				D7A588DF19A23691005B13BA /* Window */,
+				D7A588DE19A2368C005B13BA /* Tab */,
+				D7A588DD19A23680005B13BA /* DnD */,
+				D7A588DC19A2367B005B13BA /* Image */,
+				D7A588DB19A23675005B13BA /* View */,
+				D7A588DA19A2366F005B13BA /* Collection */,
+				D7A588D919A2366A005B13BA /* List */,
+				D7A588D819A2365C005B13BA /* Table */,
+				D7A588D719A23656005B13BA /* Menu */,
+				D7A588D619A2364D005B13BA /* Text */,
+				D7A588D519A2363B005B13BA /* Button */,
 				D7A588B319A23634005B13BA /* PJAppDelegate.h */,
 				D7A588B419A23634005B13BA /* PJAppDelegate.m */,
 				D7A588B619A23634005B13BA /* MainMenu.xib */,
@@ -132,6 +278,7 @@
 				D7A588AD19A23634005B13BA /* main.m */,
 				D7A588AF19A23634005B13BA /* CocoaControls-Prefix.pch */,
 				D7A588B019A23634005B13BA /* Credits.rtf */,
+				D7A588E919A237F4005B13BA /* windows.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +299,246 @@
 				D7A588C819A23634005B13BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A588D519A2363B005B13BA /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D7A588EB19A238CE005B13BA /* PJButtonWindowController.h */,
+				D7A588EC19A238CE005B13BA /* PJButtonWindowController.m */,
+				D7A588ED19A238CE005B13BA /* PJButtonWindowController.xib */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		D7A588D619A2364D005B13BA /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D7A588F019A239E3005B13BA /* PJTextWindowController.h */,
+				D7A588F119A239E3005B13BA /* PJTextWindowController.m */,
+				D7A588F219A239E3005B13BA /* PJTextWindowController.xib */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		D7A588D719A23656005B13BA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D7A588F519A239F5005B13BA /* PJMenuWindowController.h */,
+				D7A588F619A239F5005B13BA /* PJMenuWindowController.m */,
+				D7A588F719A239F5005B13BA /* PJMenuWindowController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		D7A588D819A2365C005B13BA /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D7A588FA19A23A05005B13BA /* PJTableWindowController.h */,
+				D7A588FB19A23A05005B13BA /* PJTableWindowController.m */,
+				D7A588FC19A23A05005B13BA /* PJTableWindowController.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		D7A588D919A2366A005B13BA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D7A588FF19A23A15005B13BA /* PJListWindowController.h */,
+				D7A5890019A23A15005B13BA /* PJListWindowController.m */,
+				D7A5890119A23A15005B13BA /* PJListWindowController.xib */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		D7A588DA19A2366F005B13BA /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5890419A23A27005B13BA /* PJCollectionWindowController.h */,
+				D7A5890519A23A27005B13BA /* PJCollectionWindowController.m */,
+				D7A5890619A23A27005B13BA /* PJCollectionWindowController.xib */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
+		D7A588DB19A23675005B13BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5890919A23A38005B13BA /* PJViewWindowController.h */,
+				D7A5890A19A23A38005B13BA /* PJViewWindowController.m */,
+				D7A5890B19A23A38005B13BA /* PJViewWindowController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D7A588DC19A2367B005B13BA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5890E19A23A4B005B13BA /* PJImageWindowController.h */,
+				D7A5890F19A23A4B005B13BA /* PJImageWindowController.m */,
+				D7A5891019A23A4B005B13BA /* PJImageWindowController.xib */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		D7A588DD19A23680005B13BA /* DnD */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5891319A23A5F005B13BA /* PJDnDWindowController.h */,
+				D7A5891419A23A5F005B13BA /* PJDnDWindowController.m */,
+				D7A5891519A23A5F005B13BA /* PJDnDWindowController.xib */,
+			);
+			name = DnD;
+			sourceTree = "<group>";
+		};
+		D7A588DE19A2368C005B13BA /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5891819A23A6F005B13BA /* PJTabWindowController.h */,
+				D7A5891919A23A6F005B13BA /* PJTabWindowController.m */,
+				D7A5891A19A23A6F005B13BA /* PJTabWindowController.xib */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
+		D7A588DF19A23691005B13BA /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5891D19A23A81005B13BA /* PJWindowWindowController.h */,
+				D7A5891E19A23A81005B13BA /* PJWindowWindowController.m */,
+				D7A5891F19A23A81005B13BA /* PJWindowWindowController.xib */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		D7A588E019A23696005B13BA /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5892219A23A91005B13BA /* PJNavWindowController.h */,
+				D7A5892319A23A91005B13BA /* PJNavWindowController.m */,
+				D7A5892419A23A91005B13BA /* PJNavWindowController.xib */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		D7A588E119A2369D005B13BA /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5892719A23AA9005B13BA /* PJPreferenceWindowController.h */,
+				D7A5892819A23AA9005B13BA /* PJPreferenceWindowController.m */,
+				D7A5892919A23AA9005B13BA /* PJPreferenceWindowController.xib */,
+			);
+			name = Preference;
+			sourceTree = "<group>";
+		};
+		D7A588E219A236A6005B13BA /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5892C19A23ABA005B13BA /* PJToolbarWindowController.h */,
+				D7A5892D19A23ABA005B13BA /* PJToolbarWindowController.m */,
+				D7A5892E19A23ABA005B13BA /* PJToolbarWindowController.xib */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		D7A588E319A236BA005B13BA /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5893119A23ACA005B13BA /* PJColorWindowController.h */,
+				D7A5893219A23ACA005B13BA /* PJColorWindowController.m */,
+				D7A5893319A23ACA005B13BA /* PJColorWindowController.xib */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		D7A588E419A236C0005B13BA /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5893619A23AD9005B13BA /* PJSliderWindowController.h */,
+				D7A5893719A23AD9005B13BA /* PJSliderWindowController.m */,
+				D7A5893819A23AD9005B13BA /* PJSliderWindowController.xib */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		D7A588E519A236C5005B13BA /* Progressbar */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5893B19A23AF2005B13BA /* PJProgressbarWindowController.h */,
+				D7A5893C19A23AF2005B13BA /* PJProgressbarWindowController.m */,
+				D7A5893D19A23AF2005B13BA /* PJProgressbarWindowController.xib */,
+			);
+			name = Progressbar;
+			sourceTree = "<group>";
+		};
+		D7A588E619A236E8005B13BA /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5894019A23B04005B13BA /* PJOpenGLWindowController.h */,
+				D7A5894119A23B04005B13BA /* PJOpenGLWindowController.m */,
+				D7A5894219A23B04005B13BA /* PJOpenGLWindowController.xib */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		D7A588E719A236F4005B13BA /* AVI */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5894519A23B19005B13BA /* PJAVIWindowController.h */,
+				D7A5894619A23B19005B13BA /* PJAVIWindowController.m */,
+				D7A5894719A23B19005B13BA /* PJAVIWindowController.xib */,
+			);
+			name = AVI;
+			sourceTree = "<group>";
+		};
+		D7A588E819A2374C005B13BA /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5894A19A23B32005B13BA /* PJWebViewWindowController.h */,
+				D7A5894B19A23B32005B13BA /* PJWebViewWindowController.m */,
+				D7A5894C19A23B32005B13BA /* PJWebViewWindowController.xib */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		D7A5894F19A23B88005B13BA /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5895019A23B9D005B13BA /* PJSidebarWindowController.h */,
+				D7A5895119A23B9D005B13BA /* PJSidebarWindowController.m */,
+				D7A5895219A23B9D005B13BA /* PJSidebarWindowController.xib */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		D7A5895519A23BB5005B13BA /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5895619A23BCE005B13BA /* PJHighlightWindowController.h */,
+				D7A5895719A23BCE005B13BA /* PJHighlightWindowController.m */,
+				D7A5895819A23BCE005B13BA /* PJHighlightWindowController.xib */,
+			);
+			name = Highlight;
+			sourceTree = "<group>";
+		};
+		D7A5895B19A23BD4005B13BA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5895C19A23BEB005B13BA /* PJAnimationWindowController.h */,
+				D7A5895D19A23BEB005B13BA /* PJAnimationWindowController.m */,
+				D7A5895E19A23BEB005B13BA /* PJAnimationWindowController.xib */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		D7A5896119A23BF0005B13BA /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5896219A23C32005B13BA /* PJBindingWindowController.h */,
+				D7A5896319A23C32005B13BA /* PJBindingWindowController.m */,
+				D7A5896419A23C32005B13BA /* PJBindingWindowController.xib */,
+			);
+			name = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +618,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A5894919A23B19005B13BA /* PJAVIWindowController.xib in Resources */,
 				D7A588AC19A23634005B13BA /* InfoPlist.strings in Resources */,
+				D7A5890319A23A15005B13BA /* PJListWindowController.xib in Resources */,
+				D7A5893019A23ABA005B13BA /* PJToolbarWindowController.xib in Resources */,
+				D7A5893A19A23AD9005B13BA /* PJSliderWindowController.xib in Resources */,
+				D7A5895A19A23BCE005B13BA /* PJHighlightWindowController.xib in Resources */,
+				D7A588EF19A238CE005B13BA /* PJButtonWindowController.xib in Resources */,
+				D7A5896619A23C32005B13BA /* PJBindingWindowController.xib in Resources */,
+				D7A588EA19A237F4005B13BA /* windows.plist in Resources */,
+				D7A5893519A23ACA005B13BA /* PJColorWindowController.xib in Resources */,
+				D7A5894419A23B04005B13BA /* PJOpenGLWindowController.xib in Resources */,
+				D7A5890D19A23A38005B13BA /* PJViewWindowController.xib in Resources */,
+				D7A5893F19A23AF2005B13BA /* PJProgressbarWindowController.xib in Resources */,
+				D7A5892619A23A91005B13BA /* PJNavWindowController.xib in Resources */,
+				D7A5892B19A23AA9005B13BA /* PJPreferenceWindowController.xib in Resources */,
+				D7A588FE19A23A05005B13BA /* PJTableWindowController.xib in Resources */,
 				D7A588BA19A23634005B13BA /* Images.xcassets in Resources */,
+				D7A588F419A239E3005B13BA /* PJTextWindowController.xib in Resources */,
+				D7A5891219A23A4B005B13BA /* PJImageWindowController.xib in Resources */,
+				D7A5896019A23BEB005B13BA /* PJAnimationWindowController.xib in Resources */,
 				D7A588B219A23634005B13BA /* Credits.rtf in Resources */,
+				D7A5891719A23A5F005B13BA /* PJDnDWindowController.xib in Resources */,
+				D7A5892119A23A81005B13BA /* PJWindowWindowController.xib in Resources */,
+				D7A5890819A23A27005B13BA /* PJCollectionWindowController.xib in Resources */,
+				D7A5891C19A23A6F005B13BA /* PJTabWindowController.xib in Resources */,
+				D7A5895419A23B9D005B13BA /* PJSidebarWindowController.xib in Resources */,
+				D7A588F919A239F5005B13BA /* PJMenuWindowController.xib in Resources */,
+				D7A5894E19A23B32005B13BA /* PJWebViewWindowController.xib in Resources */,
 				D7A588B819A23634005B13BA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +665,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A5892A19A23AA9005B13BA /* PJPreferenceWindowController.m in Sources */,
+				D7A5896519A23C32005B13BA /* PJBindingWindowController.m in Sources */,
+				D7A5895F19A23BEB005B13BA /* PJAnimationWindowController.m in Sources */,
+				D7A588F819A239F5005B13BA /* PJMenuWindowController.m in Sources */,
+				D7A5893919A23AD9005B13BA /* PJSliderWindowController.m in Sources */,
+				D7A5891619A23A5F005B13BA /* PJDnDWindowController.m in Sources */,
+				D7A5894819A23B19005B13BA /* PJAVIWindowController.m in Sources */,
+				D7A588EE19A238CE005B13BA /* PJButtonWindowController.m in Sources */,
+				D7A5890C19A23A38005B13BA /* PJViewWindowController.m in Sources */,
 				D7A588B519A23634005B13BA /* PJAppDelegate.m in Sources */,
+				D7A5890719A23A27005B13BA /* PJCollectionWindowController.m in Sources */,
+				D7A5893419A23ACA005B13BA /* PJColorWindowController.m in Sources */,
+				D7A588F319A239E3005B13BA /* PJTextWindowController.m in Sources */,
+				D7A5894D19A23B32005B13BA /* PJWebViewWindowController.m in Sources */,
+				D7A5891B19A23A6F005B13BA /* PJTabWindowController.m in Sources */,
+				D7A5892019A23A81005B13BA /* PJWindowWindowController.m in Sources */,
+				D7A5894319A23B04005B13BA /* PJOpenGLWindowController.m in Sources */,
+				D7A5893E19A23AF2005B13BA /* PJProgressbarWindowController.m in Sources */,
+				D7A5890219A23A15005B13BA /* PJListWindowController.m in Sources */,
+				D7A5895319A23B9D005B13BA /* PJSidebarWindowController.m in Sources */,
+				D7A5891119A23A4B005B13BA /* PJImageWindowController.m in Sources */,
+				D7A588FD19A23A05005B13BA /* PJTableWindowController.m in Sources */,
 				D7A588AE19A23634005B13BA /* main.m in Sources */,
+				D7A5892519A23A91005B13BA /* PJNavWindowController.m in Sources */,
+				D7A5895919A23BCE005B13BA /* PJHighlightWindowController.m in Sources */,
+				D7A5892F19A23ABA005B13BA /* PJToolbarWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

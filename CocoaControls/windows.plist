@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>windows</string>
+	<key>description</key>
+	<string>Cocoa controls</string>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>windows</key>
+	<array>
+		<dict> <key>name</key> <string>Animation</string> <key>description</key> <string>Cocoa Animation controls</string> <key>nib</key><string>PJAnimationWindowController</string> <key>class</key> <string>PJAnimationWindowController</string> </dict>
+        <dict> <key>name</key> <string>AVI</string> <key>description</key> <string>Cocoa AVI controls</string> <key>nib</key><string>PJAVIWindowController</string> <key>class</key> <string>PJAVIWindowController</string> </dict>
+        <dict> <key>name</key> <string>Binding</string> <key>description</key> <string>Cocoa Binding controls</string> <key>nib</key><string>PJBindingWindowController</string> <key>class</key> <string>PJBindingWindowController</string> </dict>
+        <dict> <key>name</key> <string>Button</string> <key>description</key> <string>Cocoa Button controls</string> <key>nib</key><string>PJButtonWindowController</string> <key>class</key> <string>PJButtonWindowController</string> </dict>
+        <dict> <key>name</key> <string>Collection</string> <key>description</key> <string>Cocoa Collection controls</string> <key>nib</key><string>PJCollectionWindowController</string> <key>class</key> <string>PJCollectionWindowController</string> </dict>
+        <dict> <key>name</key> <string>Color</string> <key>description</key> <string>Cocoa Color controls</string> <key>nib</key><string>PJColorWindowController</string> <key>class</key> <string>PJColorWindowController</string> </dict>
+        <dict> <key>name</key> <string>DnD</string> <key>description</key> <string>Cocoa DnD controls</string> <key>nib</key><string>PJDnDWindowController</string> <key>class</key> <string>PJDnDWindowController</string> </dict>
+        <dict> <key>name</key> <string>Highlight</string> <key>description</key> <string>Cocoa Highlight controls</string> <key>nib</key><string>PJHighlightWindowController</string> <key>class</key> <string>PJHighlightWindowController</string> </dict>
+        <dict> <key>name</key> <string>Image</string> <key>description</key> <string>Cocoa Image controls</string> <key>nib</key><string>PJImageWindowController</string> <key>class</key> <string>PJImageWindowController</string> </dict>
+        <dict> <key>name</key> <string>List</string> <key>description</key> <string>Cocoa List controls</string> <key>nib</key><string>PJListWindowController</string> <key>class</key> <string>PJListWindowController</string> </dict>
+        <dict> <key>name</key> <string>Menu</string> <key>description</key> <string>Cocoa Menu controls</string> <key>nib</key><string>PJMenuWindowController</string> <key>class</key> <string>PJMenuWindowController</string> </dict>
+        <dict> <key>name</key> <string>Nav</string> <key>description</key> <string>Cocoa Nav controls</string> <key>nib</key><string>PJNavWindowController</string> <key>class</key> <string>PJNavWindowController</string> </dict>
+        <dict> <key>name</key> <string>OpenGL</string> <key>description</key> <string>Cocoa OpenGL controls</string> <key>nib</key><string>PJOpenGLWindowController</string> <key>class</key> <string>PJOpenGLWindowController</string> </dict>
+        <dict> <key>name</key> <string>Preference</string> <key>description</key> <string>Cocoa Preference controls</string> <key>nib</key><string>PJPreferenceWindowController</string> <key>class</key> <string>PJPreferenceWindowController</string> </dict>
+        <dict> <key>name</key> <string>Progressbar</string> <key>description</key> <string>Cocoa Progressbar controls</string> <key>nib</key><string>PJProgressbarWindowController</string> <key>class</key> <string>PJProgressbarWindowController</string> </dict>
+        <dict> <key>name</key> <string>Sidebar</string> <key>description</key> <string>Cocoa Sidebar controls</string> <key>nib</key><string>PJSidebarWindowController</string> <key>class</key> <string>PJSidebarWindowController</string> </dict>
+        <dict> <key>name</key> <string>Slider</string> <key>description</key> <string>Cocoa Slider controls</string> <key>nib</key><string>PJSliderWindowController</string> <key>class</key> <string>PJSliderWindowController</string> </dict>
+        <dict> <key>name</key> <string>Tab</string> <key>description</key> <string>Cocoa Tab controls</string> <key>nib</key><string>PJTabWindowController</string> <key>class</key> <string>PJTabWindowController</string> </dict>
+        <dict> <key>name</key> <string>Table</string> <key>description</key> <string>Cocoa Table controls</string> <key>nib</key><string>PJTableWindowController</string> <key>class</key> <string>PJTableWindowController</string> </dict>
+        <dict> <key>name</key> <string>Text</string> <key>description</key> <string>Cocoa Text controls</string> <key>nib</key><string>PJTextWindowController</string> <key>class</key> <string>PJTextWindowController</string> </dict>
+        <dict> <key>name</key> <string>Toolbar</string> <key>description</key> <string>Cocoa Toolbar controls</string> <key>nib</key><string>PJToolbarWindowController</string> <key>class</key> <string>PJToolbarWindowController</string> </dict>
+        <dict> <key>name</key> <string>View</string> <key>description</key> <string>Cocoa View controls</string> <key>nib</key><string>PJViewWindowController</string> <key>class</key> <string>PJViewWindowController</string> </dict>
+        <dict> <key>name</key> <string>WebView</string> <key>description</key> <string>Cocoa WebView controls</string> <key>nib</key><string>PJWebViewWindowController</string> <key>class</key> <string>PJWebViewWindowController</string> </dict>
+        <dict> <key>name</key> <string>Window</string> <key>description</key> <string>Cocoa Window controls</string> <key>nib</key><string>PJWindowWindowController</string> <key>class</key> <string>PJWindowWindowController</string> </dict>
+	</array>
+</dict>
+</plist>
